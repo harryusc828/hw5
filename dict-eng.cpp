@@ -4,6 +4,8 @@
 #include <fstream>
 #include <set>
 #include <string>
+#include <iostream>
+using namespace std;
 const std::set<std::string>& readDictWords(std::string filename)
 {
 	static std::set<std::string> dict;

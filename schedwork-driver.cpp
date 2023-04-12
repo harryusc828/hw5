@@ -31,6 +31,7 @@ int main()
     }
     else
     {
+        printSchedule(sched);
         cout << "No solution found!" << endl;
     }
     return 0;
